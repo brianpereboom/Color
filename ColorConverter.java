@@ -166,7 +166,7 @@ public class ColorConverter extends javax.swing.JFrame {
             );
             
             TextField3.setText("HSV");
-            TextField4.setText(String.format("%.3f", hue));
+            TextField4.setText(String.format("%.1f", hue));
             TextField5.setText(String.format("%.3f", saturation));
             TextField6.setText(String.format("%.3f", value));
         } else if(val.equals("HSV")) {
