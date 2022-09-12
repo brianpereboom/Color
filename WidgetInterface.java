@@ -2,7 +2,7 @@ package Color;
 public class WidgetInterface extends javax.swing.JFrame implements ColorConverter {
 
     private javax.swing.JPanel Panel;
-    private javax.swing.JLabel Label0;
+    private javax.swing.JLabel Label;
     private javax.swing.JComboBox<String> ComboBox;
     private javax.swing.JTextField TextField0;
     private javax.swing.JTextField TextField1;
@@ -21,7 +21,7 @@ public class WidgetInterface extends javax.swing.JFrame implements ColorConverte
     private void initComponents() {
 
         Panel = new javax.swing.JPanel();
-        Label0 = new javax.swing.JLabel();
+        Label = new javax.swing.JLabel();
         ComboBox = new javax.swing.JComboBox<String>();
         TextField0 = new javax.swing.JTextField();
         TextField1 = new javax.swing.JTextField();
@@ -35,10 +35,10 @@ public class WidgetInterface extends javax.swing.JFrame implements ColorConverte
 
         Panel.setBackground(new java.awt.Color(51, 51, 51));
 
-        Label0.setBackground(new java.awt.Color(255, 255, 255));
-        Label0.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        Label0.setForeground(new java.awt.Color(255, 255, 255));
-        Label0.setText("Color Converter");
+        Label.setBackground(new java.awt.Color(255, 255, 255));
+        Label.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        Label.setForeground(new java.awt.Color(255, 255, 255));
+        Label.setText("Color Converter");
 
         javax.swing.GroupLayout PanelLayout = new javax.swing.GroupLayout(Panel);
         Panel.setLayout(PanelLayout);
@@ -46,14 +46,14 @@ public class WidgetInterface extends javax.swing.JFrame implements ColorConverte
             PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
             .addGroup(PanelLayout.createSequentialGroup()
                 .addGap(142, 142, 142)
-                .addComponent(Label0)
+                .addComponent(Label)
                 .addContainerGap(161, Short.MAX_VALUE))
         );
         PanelLayout.setVerticalGroup(
             PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
             .addGroup(PanelLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addComponent(Label0)
+                .addComponent(Label)
                 .addContainerGap(23, Short.MAX_VALUE))
         );
 
