@@ -1,4 +1,9 @@
-Converts RGB to HSV and HSV to RGB
+### Converts RGB to HSV and HSV to RGB
 
-To use the widget, run WidgetInterface.java.
-To use the terminal, run TerminalInterface.java [color format] [red/hue] [green/saturation] [blue/value].
+#### Install Instructions
+  1. Clone Repository
+  2. Run `javac -d . *.java`
+
+#### Run Instructions
+To use the widget: Run `java Color.WidgetInterface.java`
+To use the terminal: Run `java Color.TerminalInterface.java [color format] [red/hue] [green/saturation] [blue/value]`
