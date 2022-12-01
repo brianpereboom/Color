@@ -5,5 +5,5 @@
   2. Run `javac -d . *.java`
 
 #### Run Instructions
-To use the widget: Run `java Color.WidgetInterface.java`
-To use the terminal: Run `java Color.TerminalInterface.java [color format] [red/hue] [green/saturation] [blue/value]`
+To use the widget: Run `java Color.WidgetInterface`
+To use the terminal: Run `java Color.TerminalInterface [color format] [red/hue] [green/saturation] [blue/value]`
